@@ -11,7 +11,7 @@ wlan.active(True)
 ssid = 'Nalith'
 password = 'Drakspears'
 wlan.connect(ssid, password)
-url = "http://172.20.48.1:3000/pos"
+url = "https://sonar-ihm.onrender.com/pos"
 
 while not wlan.isconnected():
     print('noco')
